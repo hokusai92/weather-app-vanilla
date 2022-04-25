@@ -24,6 +24,7 @@ li {
   font-size: 16;
   font-weight: 100;
   line-height: 19px;
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
@@ -55,15 +56,11 @@ li {
   line-height: 1;
 }
 
-.weather-temperature .units {
+.units {
   position: relative;
   font-size: 16px;
-  top: -60px;
-  left: 75px;
-}
-
-.float-left {
-  float: left;
+  top: -67px;
+  left: 65px;
 }
 
 .fa-cloud {

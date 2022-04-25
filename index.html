@@ -14,6 +14,7 @@
       src="https://kit.fontawesome.com/6d130610cc.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -22,10 +23,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Tokyo</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Friday 05:00</li>
-              <li>Clear</li>
+              <li id="description">Clear</li>
             </ul>
           </div>
           <div class="row">
@@ -34,8 +35,10 @@
                 <div class="d-flex flex-row bd-highlight mb-3">
                   <i class="fa-solid fa-cloud" alt="cloud"></i>
                   <div class="p-2 bd-highlight">
-                    <strong>12</strong>
-                    <span class="units">°C | <a href="#">°F</a></span>
+                    <strong id="temperature">12</strong>
+                    <div class="p-2 bd-highlight">
+                      <span class="units">°C | <a href="#">°F</a></span>
+                    </div>
                   </div>
                 </div>
               </div>
