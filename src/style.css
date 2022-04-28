@@ -34,9 +34,9 @@ li {
   text-transform: capitalize;
 }
 
-#icon {
+img#icon {
   position: relative;
-  top: -40px;
+  top: -15px;
 }
 
 input.btn {
