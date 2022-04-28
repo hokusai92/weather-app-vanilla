@@ -16,7 +16,7 @@ h1 {
   height: 45px;
   line-height: 28.8px;
   text-align: left;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -34,9 +34,9 @@ li {
   text-transform: capitalize;
 }
 
-img {
+#icon {
   position: relative;
-  top: -20px;
+  top: -40px;
 }
 
 input.btn {
@@ -101,4 +101,22 @@ input.btn:hover {
 .github-link {
   text-align: center;
   display: block;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
