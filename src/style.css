@@ -1,10 +1,10 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
-  background: linear-gradient(
-      109.6deg,
-      rgb(255, 221, 225) 11.2%,
-      rgb(255, 255, 255) 92.2%
+  background: radial-gradient(
+      circle at 10% 20%,
+      rgb(248, 219, 219) 0%,
+      rgb(219, 228, 243) 90%
     )
     center fixed;
 }
@@ -16,7 +16,7 @@ h1 {
   height: 45px;
   line-height: 28.8px;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 ul {
@@ -40,13 +40,13 @@ img#icon {
 }
 
 input.btn {
-  background-color: #e48486;
+  background-color: #e8b5c2;
   border: white;
 }
 
 input.btn:hover {
-  background-color: white;
-  color: #e48486;
+  background-color: #dbe4f3;
+  color: white;
 }
 
 .weather-app-wrapper {
@@ -60,7 +60,7 @@ input.btn:hover {
   padding: 20px;
   border: 1px solid white;
   border-radius: 7px;
-  background: url("./cherryblossom.jpg") center;
+  background: url("./sakura1.jpg") center fixed;
 }
 
 .overview {
@@ -83,7 +83,7 @@ input.btn:hover {
   position: relative;
   font-size: 16px;
   top: -67px;
-  left: 67px;
+  left: 65px;
   text-decoration: none;
 }
 
